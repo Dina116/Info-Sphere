@@ -1,0 +1,53 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "node_modules/@react-native-vector-icons/ionicons/fonts/Ionicons.ttf",
+      "sha1": "3a656ee69b64ccb1e57f1721f7659b50c1fb56ef"
+    },
+    {
+      "path": "node_modules/@react-native-vector-icons/fontawesome6/fonts/FontAwesome6_Brands.ttf",
+      "sha1": "da6f537cd597b76d264970f1c95e4beebc82fde9"
+    },
+    {
+      "path": "node_modules/@react-native-vector-icons/fontawesome6/fonts/FontAwesome6_Regular.ttf",
+      "sha1": "6e7f0651059eea9783ea8b28892b2c979c2f7f30"
+    },
+    {
+      "path": "node_modules/@react-native-vector-icons/fontawesome6/fonts/FontAwesome6_Solid.ttf",
+      "sha1": "780a8ff16ebb681f85d5d30fac94ebe845a12b5e"
+    },
+    {
+      "path": "Src/assets/fonts/Cairo-Black.ttf",
+      "sha1": "daf7d75a54160134031c1f4c7ed3aa8f80b33f9d"
+    },
+    {
+      "path": "Src/assets/fonts/Cairo-Bold.ttf",
+      "sha1": "dd70862b408a084a4e55aa03529eb8e06641165e"
+    },
+    {
+      "path": "Src/assets/fonts/Cairo-ExtraBold.ttf",
+      "sha1": "35edba902298f72ed1d47c93201d2517169a0004"
+    },
+    {
+      "path": "Src/assets/fonts/Cairo-ExtraLight.ttf",
+      "sha1": "9c3787a7b847c6d1749e69f574829623834e1626"
+    },
+    {
+      "path": "Src/assets/fonts/Cairo-Light.ttf",
+      "sha1": "cef35f6061ab86fc969e4be4568914e3bebdfb80"
+    },
+    {
+      "path": "Src/assets/fonts/Cairo-Medium.ttf",
+      "sha1": "35fb6c639d86475e0ba6f1883001310d0ab4076d"
+    },
+    {
+      "path": "Src/assets/fonts/Cairo-Regular.ttf",
+      "sha1": "ff06dbd8c8a0fef12b0668cb7b849c209a21b435"
+    },
+    {
+      "path": "Src/assets/fonts/Cairo-SemiBold.ttf",
+      "sha1": "30dc3ec8aba45f975411bc675494c59b5c227f47"
+    }
+  ]
+}
