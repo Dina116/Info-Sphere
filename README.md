@@ -14,16 +14,15 @@ It allows users to browse the latest news, open full article details, and save t
 
 ### 🗂️ **Everything News**
 - A separate section that lists more articles.
-- Implemented using a regular `FlatList` (NOT based on search).
+- Implemented using a regular `FlatList`.
 - Helps users explore more general content easily.
 
 ### 📄 **Article Details**
 When the user taps any article:
-- Full-size image  
+- image  
 - Title  
 - Description  
-- Cleaned partial content (removing `[+xxxx chars]`)  
-- Button to **Read Full Article** in browser  
+- Button to **Back to the Home Screen**
 - Button to **Add to Favourite**
 
 ### ❤️ **Favourite Articles**
@@ -54,4 +53,4 @@ When the user taps any article:
 This app also includes a simple Android-native module written in **Kotlin** to show a Toast message:
 
 ```ts
-ToastExample.showToast("Added to Favourites ❤️");
+ToastExample.showToast("Added to Favourites ");
