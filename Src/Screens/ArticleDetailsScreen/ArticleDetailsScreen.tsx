@@ -7,31 +7,28 @@ import ScreenNames from '../../navigation/ScreenNames';
 import ArticleScreenStyle from './ArticleScreenStyle';
 import Ionicons from '@react-native-vector-icons/ionicons';
 import useFavStore from '../../Store/useFavStore';
-// import Toast from 'react-native-toast-message';
 import { NativeModules } from 'react-native';
 
-// const showToast = () => {
-//   Toast.show({
-//     type: 'success',
-//     text1: 'Added!',
-//     text2: 'Article added to favourites successfully 👏',
-//   });
-// };
 const { ToastExample } = NativeModules;
 
 export default function ArticleDetailsScreen() {
+
   const { goBack } = useNavigation();
+
   const { params } =
     useRoute<RouteProp<MainStackParamList, ScreenNames.ArticleDetailsScreen>>();
+
   const { article } = params ?? {};
+
   const { description, title, urlToImage } = article ?? {};
+
   const { addToFavList } = useFavStore();
+
   return (
     <SafeAreaView style={ArticleScreenStyle.safeContainer}>
       <ScrollView style={ArticleScreenStyle.container}>
         <View style={ArticleScreenStyle.header}>
           <TouchableOpacity style={ArticleScreenStyle.backBtn} onPress={goBack}>
-            {/* <Text style={ArticleScreenStyle.goBackText}>Go Back</Text> */}
             <Ionicons name="chevron-back-outline" size={30} color="#000" />
           </TouchableOpacity>
         </View>

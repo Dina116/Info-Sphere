@@ -1,5 +1,3 @@
-// import { SafeAreaView } from 'react-native-safe-area-context';
-// import HomeScreen from './Src/Screens/HomeScreen/HomeScreen';
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import MainStack from './Src/navigation/mainStack';

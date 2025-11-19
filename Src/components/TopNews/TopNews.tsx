@@ -9,13 +9,16 @@ import ScreenNames from '../../navigation/ScreenNames';
 import StackNames from '../../navigation/Stacks/StackNames';
 
 export default function TopNews() {
+
   const [articles, setArticles] = useState<ArticleType[]>([]);
+
   const { navigate } =
     useNavigation<NavigationProp<MainStackParamList, ScreenNames.HomeScreen>>();
 
   useEffect(() => {
     getNews();
   }, []);
+  
   function getNews() {
     const url = '/everything?domains=techcrunch.com,thenextweb.com';
     get(url)

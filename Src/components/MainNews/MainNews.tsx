@@ -15,12 +15,17 @@ import { MainStackParamList } from '../../navigation/mainStack';
 import StackNames from '../../navigation/Stacks/StackNames';
 
 const MainNews = () => {
+
   const [topNews, setTopNews] = useState([]);
+
   const { navigate } =
     useNavigation<NavigationProp<MainStackParamList, ScreenNames.HomeScreen>>();
+
   useEffect(() => {
     getTopNews();
   }, []);
+  
+
   function getTopNews() {
     const url = '/top-headlines?country=us';
     get(url)
@@ -35,6 +40,7 @@ const MainNews = () => {
         console.log('Response Error: ', error);
       });
   }
+
   function goToArticleDetails(article: ArticleType) {
     navigate(StackNames.SharedStack, {
       screen: ScreenNames.ArticleDetailsScreen,
@@ -43,6 +49,7 @@ const MainNews = () => {
       },
     });
   }
+
   function renderNews(item: ArticleType) {
     return (
       <TouchableOpacity onPress={() => goToArticleDetails(item)}>

@@ -8,6 +8,7 @@ import useFavStore from '../../Store/useFavStore';
 import { ArticleType } from '../../types/ArticleType';
 export default function FavArticlesScreen() {
   const { navigate } = useNavigation();
+  
   const { favList } = useFavStore();
 
   function goToArticleDetails(article: ArticleType) {

@@ -1,4 +1,4 @@
-import { View, Text, TouchableOpacity, Button } from 'react-native';
+import { View, Text, TouchableOpacity } from 'react-native';
 import React from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import LoginScreenStyle from './LoginScreenStyle';
@@ -6,6 +6,7 @@ import { useNavigation } from '@react-navigation/native';
 import StackNames from '../../navigation/Stacks/StackNames';
 
 export default function LoginScreen() {
+
   const {navigate} = useNavigation();
   return (
     <SafeAreaView style={{ flex: 1 }}>
